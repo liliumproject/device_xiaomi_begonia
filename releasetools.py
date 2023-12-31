@@ -25,7 +25,7 @@ def IncrementalOTA_InstallEnd(info):
 
 def AddImageOnly(info, basename, incremental, firmware):
   if incremental:
-    input_zip = info.source_zip
+    input_zip = info.target_zip
   else:
     input_zip = info.input_zip
   if firmware:
