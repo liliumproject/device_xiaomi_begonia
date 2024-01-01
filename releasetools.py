@@ -106,5 +106,3 @@ def Firmware_Images(info, incremental):
 
   fw_cmd += ')\n);'
   info.script.AppendExtra(fw_cmd)
-
-  AddImage(info, "recovery.img", "/dev/block/bootdevice/by-name/recovery", incremental)
