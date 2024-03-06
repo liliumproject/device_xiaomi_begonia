@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_begonia.mk
+    $(LOCAL_DIR)/halcyon_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    $(foreach variant, user userdebug eng, aosp_begonia-$(variant))
+    $(foreach variant, user userdebug eng, halcyon_begonia-$(variant))

@@ -12,16 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from begonia device
 $(call inherit-product, device/redmi/begonia/device.mk)
 
-# Inherit some common VoidUI stuff
-$(call inherit-product, vendor/pb/config/common_full_phone.mk)
-TARGET_SUPPORTS_QUICK_TAP := true
+# Inherit some common Halcyon stuff
+$(call inherit-product, vendor/halcyon/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_USES_AOSP_RECOVERY := true
-
-# Inherit some extras stuff
-$(call inherit-product-if-exists, vendor/extras/extras.mk)
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -33,7 +26,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := aosp_begonia
+PRODUCT_NAME := halcyon_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
