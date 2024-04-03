@@ -322,7 +322,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power-V1-ndk.vendor
 
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.mediatek-libperfmgr
+    android.hardware.power-service.begonia-libperfmgr
 
 PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
