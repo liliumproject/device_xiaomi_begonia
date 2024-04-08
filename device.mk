@@ -441,6 +441,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl \
     hostapd \
+    wpa_supplicant \
     libwifi-hal-wrapper \
     android.hardware.wifi@1.0.vendor \
     android.hardware.wifi@1.1.vendor \
@@ -448,10 +449,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.3.vendor \
     android.hardware.wifi@1.4.vendor \
     android.hardware.wifi@1.5.vendor \
-    android.hardware.wifi.supplicant@1.0.vendor \
-    android.hardware.wifi.supplicant@1.1.vendor \
-    android.hardware.wifi.supplicant@1.2.vendor \
-    android.hardware.wifi.supplicant@1.3.vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service-lazy
