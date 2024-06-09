@@ -109,7 +109,7 @@ ro.vendor.mtk_ufs_support=1
 
 # Display
 ro.hardware.egl=meow
-ro.sf.lcd_density=440
+ro.sf.lcd_density=432
 ro.vendor.all_modes.colorpick_adjust=true
 ro.vendor.cabc.enable=true
 ro.vendor.colorpick_adjust=true
