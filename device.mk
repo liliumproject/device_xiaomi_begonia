@@ -177,6 +177,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl \
+    $(LOCAL_PATH)/configs/keylayout/Generic.kl::system/usr/keylayout/Generic.kl \
     $(LOCAL_PATH)/configs/keylayout/Vendor_045e_Product_0b12.kl:system/usr/keylayout/Vendor_045e_Product_0b12.kl \
     $(LOCAL_PATH)/configs/keylayout/Vendor_045e_Product_02a1.kl:system/usr/keylayout/Vendor_045e_Product_02a1.kl \
     $(LOCAL_PATH)/configs/keylayout/Vendor_045e_Product_02d1.kl:system/usr/keylayout/Vendor_045e_Product_02d1.kl \
