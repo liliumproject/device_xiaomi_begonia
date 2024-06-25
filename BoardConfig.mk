@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The VoidUI Project
+# Copyright (C) 2024 The Halcyon Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -142,7 +142,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/configs/vintf/framework_compatibility_matrix.xml \
-    vendor/aosp/config/device_framework_matrix.xml
+    vendor/halcyon/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 ODM_MANIFEST_SKUS += \
     begonia

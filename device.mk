@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The VoidUI Project
+# Copyright (C) 2023 2024 The Halcyon Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
