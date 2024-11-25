@@ -108,7 +108,7 @@ function blob_fixup {
         vendor/lib/libMtkOmxVdecEx.so)
             grep -q libshim_ui.so "$2" || "$PATCHELF" --add-needed libshim_ui.so "$2"
             ;;
-        vendor/lib/libwvhidl.so)
+        vendor/lib*/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
             ;;
     esac
